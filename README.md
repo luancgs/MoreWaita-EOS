@@ -1,10 +1,12 @@
 # MoreWaita
-An Adwaita styled theme with extra icons for popular apps to complement Gnome Shell's original icons.
-The purpose of this theme is to provide a consistent look and feel with Gnome Shell's design.
+An Adwaita styled companion icon theme with extra icons for popular apps to fit with Gnome Shell's original icons.  
+The purpose of this theme is to provide third-party apps with a consistent look and feel in Gnome Shell.
 
-This theme is built upon the work of Gnome's Adwaita designers, Gnome Circle apps' developers and Papirus theme designers with a touch of tinkering from myself and [@dusansimic](https://github.com/dusansimic) and [@julianfairfax](https://github.com/julianfairfax) here and there. The theme covers the most frequently installed dependency GUI apps that almost nobody uses (like Avahi browsers, QT Designer, Software token, etc.) as well as some of the most popular apps people really do install and use.
+**NB**: This theme requires Adwaita in order to work.
 
-The purpose of MoreWaita is to add to Adwaita, not modify it, and to do roughly what Breeze does for KDE. This theme does not override any Adwaita icons, nor any Gnome Circle apps icons, nor icons that generally fit into the Adwaita paradigm (like Transmission GTK). Currently, this theme is way less all-inclusive than many others, but the aim is to be on par with Papirus some day. However, this is (mostly) a one-man hobby effort for now, so suggestions, requests, PRs and contributions are very welcome.
+This theme is built mostly upon the work of Gnome's Adwaita designers and Gnome Circle apps' developers, as well as Papirus theme designers, with a touch of tinkering from myself, [@dusansimic](https://github.com/dusansimic), [@julianfairfax](https://github.com/julianfairfax) and others here and there. The theme provides icons for the most popular apps people really do install and use, and also covers the most frequently installed dependency GUI apps that almost nobody uses (like Avahi browsers, QT Designer, Software token, etc.).
+
+The goal of MoreWaita is to add to Adwaita, not modify it, and to do roughly what Breeze does for KDE. This theme does not override any Adwaita icons, nor any Gnome Circle apps icons, nor icons that generally fit into the Adwaita paradigm (like Transmission GTK). Currently, this theme is way less all-inclusive than many others, but the aim is to be on par with Papirus some day. However, this is (mostly) a one-man hobby effort, albeit with some greatly appreciated help, so suggestions, requests, PRs and contributions are very welcome. In the meantime, I'll focus on adding icons that the community is requesting.
 
 For most icons, especially branded ones, the general idea is to stay as close as possible to the original icons – to the point of using them in full – and giving them the distinct Adwaita 'perspective' and general flatness. One thing this theme deviates from is the Gnome colour palette in brand icons – MoreWaita keeps the brand colours.
 
@@ -43,7 +45,8 @@ Simply chose another theme and then delete the entire `MoreWaita` folder from ei
 #### Fedora Linux
 [COPR repository](https://copr.fedorainfracloud.org/coprs/dusansimic/themes)
 
-The package name is `morewaita-icon-theme`.
+1. Enable COPR repository `dnf copr enable dusansimic/themes`
+2. Install the package `dnf install morewaita-icon-theme`
 
 #### Ubuntu/Debian Linux
 
@@ -82,4 +85,8 @@ If the theme applies, but a particular app doesn't get themed (and its icon is i
 If your app's `.desktop` file references an icon name not present in Moreaita's `apps/scalable` folder, please report it in an issue providing the icon name from your system. 
 
 ## The icons
-![MoreWaita](https://github.com/somepaulo/MoreWaita/assets/15643750/6048eca1-d0e4-4e04-8a5c-7c1eee409998)
+_These screenshots show icons currently in git, versioned releases may be behind_
+
+![apps](https://github.com/somepaulo/MoreWaita/assets/15643750/46342b1f-5261-446d-8157-bea7230de711)
+![mimes](https://github.com/somepaulo/MoreWaita/assets/15643750/fd95b762-d609-4747-97ff-a6a3e40d3114)
+![places](https://github.com/somepaulo/MoreWaita/assets/15643750/81c65814-6746-49c5-a486-6da6a84d0ab4)

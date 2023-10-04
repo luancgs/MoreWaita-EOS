@@ -1,26 +1,31 @@
 scalable_places_iconsdir = join_paths(places_iconsdir, 'scalable')
 
 regular_files = [
+<<<<<<< Updated upstream
+    # DO NOT REMOVE: Begining of regular segment
+    '_meson.build',
+    'folder-backup-legacy.svg',
+    'folder-backup.svg',
     'folder-books-legacy.svg',
     'folder-books.svg',
     'folder-c-legacy.svg',
+    'folder-c.svg',
     'folder-code-legacy.svg',
     'folder-code.svg',
     'folder-cplusplus-legacy.svg',
     'folder-cplusplus.svg',
     'folder-csharp-legacy.svg',
     'folder-csharp.svg',
-    'folder-c.svg',
     'folder-dropbox-legacy.svg',
     'folder-dropbox.svg',
     'folder-games-legacy.svg',
     'folder-games.svg',
     'folder-git-legacy.svg',
     'folder-git.svg',
-    'folder-godot-legacy.svg',
-    'folder-godot.svg',
     'folder-go-legacy.svg',
     'folder-go.svg',
+    'folder-godot-legacy.svg',
+    'folder-godot.svg',
     'folder-java-legacy.svg',
     'folder-java.svg',
     'folder-lua-legacy.svg',
@@ -33,6 +38,8 @@ regular_files = [
     'folder-projects.svg',
     'folder-python-legacy.svg',
     'folder-python.svg',
+    'folder-r-legacy.svg',
+    'folder-r.svg',
     'folder-ruby-legacy.svg',
     'folder-ruby.svg',
     'folder-rust-legacy.svg',
@@ -41,9 +48,12 @@ regular_files = [
     'folder-syncthing.svg',
     'folder-vala-legacy.svg',
     'folder-vala.svg',
+    # DO NOT REMOVE: End of regular segment
 ]
 
 link_files = {
+    # DO NOT REMOVE: Begining of link segment
+    # DO NOT REMOVE: End of link segment
 }
 
 install_data(regular_files, install_dir: scalable_places_iconsdir)

@@ -22,11 +22,11 @@ This theme is built and tested against vanilla Gnome on Arch Linux. If an icon i
 `cd Morewaita`
 
 ##### Install system-wide (recommended)
-`./system-install.sh`  
+`sudo ./install.sh`  
 This copies the whole theme folder without the build files into `/usr/share/icons/`. You will be prompted for your password.
 
 ##### Install for local user
-`./local-install.sh`  
+`./install.sh`  
 This copies the whole theme folder without the build files into `~/.local/share/icons/`.
 
 ##### Update
@@ -87,6 +87,6 @@ If your app's `.desktop` file references an icon name not present in Moreaita's 
 ## The icons
 _These screenshots show icons currently in git, versioned releases may be behind_
 
-![apps](https://github.com/somepaulo/MoreWaita/assets/15643750/46342b1f-5261-446d-8157-bea7230de711)
+![apps](https://github.com/somepaulo/MoreWaita/assets/15643750/61204563-a6cc-44cc-bbbe-e87d1572abfd)
 ![mimes](https://github.com/somepaulo/MoreWaita/assets/15643750/fd95b762-d609-4747-97ff-a6a3e40d3114)
 ![places](https://github.com/somepaulo/MoreWaita/assets/15643750/81c65814-6746-49c5-a486-6da6a84d0ab4)

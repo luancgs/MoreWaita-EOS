@@ -108,6 +108,7 @@ regular_files = [
     'libreoffice-writer-symbolic.svg',
     'liferea-symbolic.svg',
     'linguist-symbolic.svg',
+    'lvim-symbolic.svg',
     'mailspring-symbolic.svg',
     'mattermost-symbolic.svg',
     'mediainfo-symbolic.svg',
@@ -116,12 +117,14 @@ regular_files = [
     'microsoft-edge-symbolic.svg',
     'minecraft-symbolic.svg',
     'mockoon-symbolic.svg',
+    'monero-symbolic.svg',
     'net.kuribo64.melonDS-symbolic.svg',
     'net.poedit.Poedit-symbolic.svg',
     'nextcloud-symbolic.svg',
     'nufraw-symbolic.svg',
     'nvidia-symbolic.svg',
     'nvim-symbolic.svg',
+    'nvtop-symbolic.svg',
     'obsidian-symbolic.svg',
     'one.alynx.showmethekey-symbolic.svg',
     'onetagger-symbolic.svg',
@@ -145,6 +148,7 @@ regular_files = [
     'projectM-symbolic.svg',
     'protonmail-bridge-symbolic.svg',
     'protonvpn-gui-symbolic.svg',
+    'pulsar-symbolic.svg',
     'pure-maps-symbolic.svg',
     'pycharm-symbolic.svg',
     'qdbusviewer-symbolic.svg',
@@ -160,6 +164,7 @@ regular_files = [
     'scrcpy-symbolic.svg',
     'scribus-symbolic.svg',
     'session-desktop-symbolic.svg',
+    'setzer-symbolic.svg',
     'shotwell-symbolic.svg',
     'signal-desktop-symbolic.svg',
     'skypeforlinux-symbolic.svg',
@@ -175,6 +180,7 @@ regular_files = [
     'strawberry-symbolic.svg',
     'sublime-merge-symbolic.svg',
     'sublime-text-symbolic.svg',
+    'surfshark-symbolic.svg',
     'syncthing-gtk-symbolic.svg',
     'system-software-install-symbolic.svg',
     'teams-symbolic.svg',
@@ -198,6 +204,7 @@ regular_files = [
     'windscribe-symbolic.svg',
     'xdvi-symbolic.svg',
     'xsane-symbolic.svg',
+    'yandex-browser-symbolic.svg',
     'yuzu-symbolic.svg',
     'zotero-symbolic.svg',
     'zrythm-symbolic.svg',
@@ -273,6 +280,10 @@ link_files = {
     ],
     'spyder-symbolic.svg': [
         'spyder3-symbolic.svg',
+    ],
+    'yandex-browser-symbolic.svg': [
+        'ru.yandex.Browser-symbolic.svg',
+        'yandex-browser-beta-symbolic.svg',
     ],
     'insomnia-symbolic.svg': [
         'rest.insomnia.Insomnia-symbolic.svg',
@@ -389,6 +400,9 @@ link_files = {
     'darktable-symbolic.svg': [
         'org.darktable.Darktable-symbolic.svg',
     ],
+    'setzer-symbolic.svg': [
+        'org.cvfosammmm.Setzer-symbolic.svg',
+    ],
     'codeblocks-symbolic.svg': [
         'org.codeblocks.codeblocks-symbolic.svg',
     ],
@@ -447,6 +461,10 @@ link_files = {
     ],
     'grapejuice-symbolic.svg': [
         'net.brinkervii.grapejuice-symbolic.svg',
+    ],
+    'monero-symbolic.svg': [
+        'monero-gui-symbolic.svg',
+        'org.getmonero.Monero-symbolic.svg',
     ],
     'com.tonikelope.MegaBasterd-symbolic.svg': [
         'megabasterd-symbolic.svg',
@@ -711,6 +729,9 @@ link_files = {
         'org.eclipse.Java-symbolic.svg',
         'org.eclipse.Javascript-symbolic.svg',
     ],
+    'pulsar-symbolic.svg': [
+        'dev.pulsar_edit.Pulsar-symbolic.svg',
+    ],
     'dbeaver-symbolic.svg': [
         'dbeaver-ee-symbolic.svg',
         'io.dbeaver.DBeaverCommunity-symbolic.svg',
@@ -776,6 +797,10 @@ link_files = {
     'webstorm-symbolic.svg': [
         'com.jetbrains.WebStorm-symbolic.svg',
     ],
+    'jetbrains-toolbox-symbolic.svg': [
+        'com.jetbrains.ToolBox-symbolic.svg',
+        'toolbox-symbolic.svg',
+    ],
     'rubymine-symbolic.svg': [
         'com.jetbrains.RubyMine-symbolic.svg',
     ],
@@ -792,6 +817,7 @@ link_files = {
     'intellij-symbolic.svg': [
         'com.jetbrains.IntelliJ-IDEA-Community-symbolic.svg',
         'com.jetbrains.IntelliJ-IDEA-Ultimate-symbolic.svg',
+        'idea-symbolic.svg',
     ],
     'goland-symbolic.svg': [
         'com.jetbrains.GoLand-symbolic.svg',

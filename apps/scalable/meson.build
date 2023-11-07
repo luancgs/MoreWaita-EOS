@@ -122,6 +122,7 @@ regular_files = [
     'libreoffice-writer.svg',
     'liferea.svg',
     'linguist.svg',
+    'lvim.svg',
     'mailspring.svg',
     'mattermost.svg',
     'mediainfo.svg',
@@ -130,6 +131,7 @@ regular_files = [
     'microsoft-edge.svg',
     'minecraft.svg',
     'mockoon.svg',
+    'monero.svg',
     'mpv.svg',
     'net.kuribo64.melonDS.svg',
     'net.poedit.Poedit.svg',
@@ -138,6 +140,7 @@ regular_files = [
     'nufraw.svg',
     'nvidia.svg',
     'nvim.svg',
+    'nvtop.svg',
     'obsidian.svg',
     'one.alynx.showmethekey.svg',
     'onetagger.svg',
@@ -165,6 +168,7 @@ regular_files = [
     'projectM.svg',
     'protonmail-bridge.svg',
     'protonvpn-gui.svg',
+    'pulsar.svg',
     'pure-maps.svg',
     'pycharm.svg',
     'qdbusviewer.svg',
@@ -180,6 +184,7 @@ regular_files = [
     'scrcpy.svg',
     'scribus.svg',
     'session-desktop.svg',
+    'setzer.svg',
     'shotwell.svg',
     'signal-desktop.svg',
     'skypeforlinux.svg',
@@ -195,6 +200,7 @@ regular_files = [
     'strawberry.svg',
     'sublime-merge.svg',
     'sublime-text.svg',
+    'surfshark.svg',
     'syncthing-gtk.svg',
     'system-software-install.svg',
     'teams.svg',
@@ -219,6 +225,7 @@ regular_files = [
     'windscribe.svg',
     'xdvi.svg',
     'xsane.svg',
+    'yandex-browser.svg',
     'yuzu.svg',
     'zotero.svg',
     'zrythm.svg',
@@ -297,6 +304,10 @@ link_files = {
     ],
     'spyder.svg': [
         'spyder3.svg',
+    ],
+    'yandex-browser.svg': [
+        'ru.yandex.Browser.svg',
+        'yandex-browser-beta.svg',
     ],
     'insomnia.svg': [
         'rest.insomnia.Insomnia.svg',
@@ -413,6 +424,9 @@ link_files = {
     'darktable.svg': [
         'org.darktable.Darktable.svg',
     ],
+    'setzer.svg': [
+        'org.cvfosammmm.Setzer.svg',
+    ],
     'codeblocks.svg': [
         'org.codeblocks.codeblocks.svg',
     ],
@@ -472,6 +486,10 @@ link_files = {
     'pavucontrol.svg': [
         'multimedia-volume-control.svg',
         'org.pulseaudio.pavucontrol.svg',
+    ],
+    'monero.svg': [
+        'monero-gui.svg',
+        'org.getmonero.Monero.svg',
     ],
     'com.tonikelope.MegaBasterd.svg': [
         'megabasterd.svg',
@@ -746,6 +764,9 @@ link_files = {
         'org.eclipse.Java.svg',
         'org.eclipse.Javascript.svg',
     ],
+    'pulsar.svg': [
+        'dev.pulsar_edit.Pulsar.svg',
+    ],
     'dbeaver.svg': [
         'dbeaver-ee.svg',
         'io.dbeaver.DBeaverCommunity.svg',
@@ -814,6 +835,10 @@ link_files = {
     'webstorm.svg': [
         'com.jetbrains.WebStorm.svg',
     ],
+    'jetbrains-toolbox.svg': [
+        'com.jetbrains.ToolBox.svg',
+        'toolbox.svg',
+    ],
     'rubymine.svg': [
         'com.jetbrains.RubyMine.svg',
     ],
@@ -830,6 +855,7 @@ link_files = {
     'intellij.svg': [
         'com.jetbrains.IntelliJ-IDEA-Community.svg',
         'com.jetbrains.IntelliJ-IDEA-Ultimate.svg',
+        'idea.svg',
     ],
     'goland.svg': [
         'com.jetbrains.GoLand.svg',

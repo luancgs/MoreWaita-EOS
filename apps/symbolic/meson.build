@@ -10,6 +10,7 @@ regular_files = [
     'alacritty-symbolic.svg',
     'androidstudio-symbolic.svg',
     'anydesk-symbolic.svg',
+    'ardour-symbolic.svg',
     'assistant-symbolic.svg',
     'atomix-symbolic.svg',
     'audacity-symbolic.svg',
@@ -29,6 +30,7 @@ regular_files = [
     'com.github.eneshecan.WhatsAppForLinux-symbolic.svg',
     'com.github.rafostar.Clapper-symbolic.svg',
     'com.obsproject.Studio-symbolic.svg',
+    'com.raggesilver.BlackBox-symbolic.svg',
     'com.tonikelope.MegaBasterd-symbolic.svg',
     'corectrl-symbolic.svg',
     'cups-symbolic.svg',
@@ -118,6 +120,7 @@ regular_files = [
     'minecraft-symbolic.svg',
     'mockoon-symbolic.svg',
     'monero-symbolic.svg',
+    'mumble-symbolic.svg',
     'net.kuribo64.melonDS-symbolic.svg',
     'net.poedit.Poedit-symbolic.svg',
     'nextcloud-symbolic.svg',
@@ -635,6 +638,9 @@ link_files = {
         'inkscape-logo-symbolic.svg',
         'inkscape-symbolic.svg',
     ],
+    'mumble-symbolic.svg': [
+        'info.mumble.Mumble-symbolic.svg',
+    ],
     'pidgin-symbolic.svg': [
         'im.pidgin.Pidgin-symbolic.svg',
     ],
@@ -765,6 +771,9 @@ link_files = {
         'sublime_text-symbolic.svg',
         'sublimetext-symbolic.svg',
     ],
+    'sublime-merge-symbolic.svg': [
+        'com.sublimemerge.App-symbolic.svg',
+    ],
     'slack-symbolic.svg': [
         'com.slack.Slack-symbolic.svg',
     ],
@@ -838,6 +847,7 @@ link_files = {
     ],
     'tor-browser-symbolic.svg': [
         'com.github.micahflee.torbrowser-launcher-symbolic.svg',
+        'org.torproject.torbrowser-launcher-symbolic.svg',
         'tor-browser-en-symbolic.svg',
         'tor-browser-ru-symbolic.svg',
         'tor-symbolic.svg',
@@ -1118,6 +1128,17 @@ link_files = {
         'Blender-symbolic.svg',
         'lutris_blender-symbolic.svg',
         'org.blender.Blender-symbolic.svg',
+    ],
+    'ardour-symbolic.svg': [
+        'Ardour-Ardour_6.0.0-symbolic.svg',
+        'Ardour-Ardour_6.5.0-symbolic.svg',
+        'Ardour-Ardour_7.0.0-symbolic.svg',
+        'Ardour-Ardour_8.0.0-symbolic.svg',
+        'Ardour-Ardour_9.0.0-symbolic.svg',
+        'ardour6-symbolic.svg',
+        'ardour7-symbolic.svg',
+        'ardour8-symbolic.svg',
+        'ardour9-symbolic.svg',
     ],
     'alacritty-symbolic.svg': [
         'Alacritty-symbolic.svg',

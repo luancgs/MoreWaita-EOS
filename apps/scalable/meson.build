@@ -12,6 +12,7 @@ regular_files = [
     'android-studio-canary.svg',
     'androidstudio.svg',
     'anydesk.svg',
+    'ardour.svg',
     'assistant.svg',
     'atomix.svg',
     'audacity.svg',
@@ -133,6 +134,7 @@ regular_files = [
     'mockoon.svg',
     'monero.svg',
     'mpv.svg',
+    'mumble.svg',
     'net.kuribo64.melonDS.svg',
     'net.poedit.Poedit.svg',
     'network-wired.svg',
@@ -665,6 +667,9 @@ link_files = {
         'inkscape-logo.svg',
         'inkscape.svg',
     ],
+    'mumble.svg': [
+        'info.mumble.Mumble.svg',
+    ],
     'pidgin.svg': [
         'im.pidgin.Pidgin.svg',
     ],
@@ -876,6 +881,7 @@ link_files = {
     ],
     'tor-browser.svg': [
         'com.github.micahflee.torbrowser-launcher.svg',
+        'org.torproject.torbrowser-launcher.svg',
         'tor-browser-en.svg',
         'tor-browser-ru.svg',
         'tor.svg',
@@ -1171,6 +1177,17 @@ link_files = {
         'Blender.svg',
         'lutris_blender.svg',
         'org.blender.Blender.svg',
+    ],
+    'ardour.svg': [
+        'Ardour-Ardour_6.0.0.svg',
+        'Ardour-Ardour_6.5.0.svg',
+        'Ardour-Ardour_7.0.0.svg',
+        'Ardour-Ardour_8.0.0.svg',
+        'Ardour-Ardour_9.0.0.svg',
+        'ardour6.svg',
+        'ardour7.svg',
+        'ardour8.svg',
+        'ardour9.svg',
     ],
     'alacritty.svg': [
         'Alacritty.svg',

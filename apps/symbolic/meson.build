@@ -30,7 +30,6 @@ regular_files = [
     'com.github.eneshecan.WhatsAppForLinux-symbolic.svg',
     'com.github.rafostar.Clapper-symbolic.svg',
     'com.obsproject.Studio-symbolic.svg',
-    'com.raggesilver.BlackBox-symbolic.svg',
     'com.tonikelope.MegaBasterd-symbolic.svg',
     'corectrl-symbolic.svg',
     'cups-symbolic.svg',
@@ -112,6 +111,7 @@ regular_files = [
     'linguist-symbolic.svg',
     'lvim-symbolic.svg',
     'mailspring-symbolic.svg',
+    'mathematica-symbolic.svg',
     'mattermost-symbolic.svg',
     'mediainfo-symbolic.svg',
     'menulibre-symbolic.svg',
@@ -263,6 +263,9 @@ link_files = {
     'discord-symbolic.svg': [
         'com.discordapp.Discord-symbolic.svg',
         'discord-canary-symbolic.svg',
+    ],
+    'mathematica-symbolic.svg': [
+        'wolfram-mathematica-symbolic.svg',
     ],
     'vivaldi-symbolic.svg': [
         'vivaldi-stable-symbolic.svg',
@@ -644,14 +647,15 @@ link_files = {
     'pidgin-symbolic.svg': [
         'im.pidgin.Pidgin-symbolic.svg',
     ],
-    'hardinfo-symbolic.svg': [
-        'hwloc-symbolic.svg',
-    ],
     'hp_logo-symbolic.svg': [
         'hp-logo-symbolic.svg',
         'hp-toolbox-symbolic.svg',
         'hplip-symbolic.svg',
         'hplj1020_icon-symbolic.svg',
+    ],
+    'hardinfo-symbolic.svg': [
+        'hardinfo2-symbolic.svg',
+        'hwloc-symbolic.svg',
     ],
     'pure-maps-symbolic.svg': [
         'harbour-pure-maps-symbolic.svg',

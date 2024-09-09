@@ -6,6 +6,7 @@ regular_files = [
     'application-epub+zip.svg',
     'application-illustrator.svg',
     'application-json.svg',
+    'application-mathematica.svg',
     'application-octet-stream.svg',
     'application-pgp-encrypted.svg',
     'application-pgp-keys.svg',
@@ -18,6 +19,7 @@ regular_files = [
     'application-vnd.comicbook+zip.svg',
     'application-vnd.flatpak.svg',
     'application-vnd.iccprofile.svg',
+    'application-vnd.scribus.svg',
     'application-vnd.snap.svg',
     'application-x-adobe-indesign.svg',
     'application-x-audacity-project.svg',
@@ -126,11 +128,6 @@ link_files = {
         'text-x-sass.svg',
         'text-x-scss.svg',
     ],
-    'oasis-web.svg': [
-        'libreoffice-oasis-web.svg',
-        'libreoffice-web.svg',
-        'vnd.google-apps.site.svg',
-    ],
     'oasis-web-template.svg': [
         'libreoffice-oasis-web-template.svg',
         'libreoffice-web-template.svg',
@@ -177,6 +174,11 @@ link_files = {
     'text-x-makefile.svg': [
         'gnome-mime-text-x-makefile.svg',
         'text-x-cmake.svg',
+    ],
+    'application-x-yaml.svg': [
+        'application-yaml.svg',
+        'text-x-yaml.svg',
+        'text-yaml.svg',
     ],
     'application-x-xopp.svg': [
         'application-x-xopt.svg',
@@ -272,13 +274,6 @@ link_files = {
     'application-x-audacity-project.svg': [
         'application-x-audacity-project+sqlite3.svg',
     ],
-    'application-x-cd-image.svg': [
-        'application-vnd.squashfs.svg',
-        'application-x-apple-diskimage.svg',
-        'application-x-raw-disk-image.svg',
-        'gnome-mime-application-x-nero-disk-image.svg',
-        'nero-disk-image.svg',
-    ],
     'oasis-text-template.svg': [
         'application-vnd.oasis.opendocument.text-template.svg',
         'libreoffice-oasis-text-template.svg',
@@ -290,6 +285,11 @@ link_files = {
         'application-vnd.oasis.opendocument.database-template.svg',
         'libreoffice-database-template.svg',
         'libreoffice-oasis-database-template.svg',
+    ],
+    'oasis-web.svg': [
+        'application-vnd.google-apps.site.svg',
+        'libreoffice-oasis-web.svg',
+        'libreoffice-web.svg',
     ],
     'oasis-presentation.svg': [
         'application-vnd.google-apps.presentation.svg',
@@ -308,6 +308,9 @@ link_files = {
     'oasis-spreadsheet.svg': [
         'application-vnd.google-apps.fusiontable.svg',
         'application-vnd.google-apps.spreadsheet.svg',
+        'application-vnd.insync.link.drive.table.svg',
+        'application-vnd.ms-excel.spreadsheet.macroenabled.12.svg',
+        'application-vnd.ms-excel.svg',
         'application-vnd.oasis.opendocument.spreadsheet.svg',
         'application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg',
         'application-x-applix-spreadsheet.svg',
@@ -316,7 +319,6 @@ link_files = {
         'libreoffice-spreadsheet.svg',
         'openoffice4-oasis-spreadsheet.svg',
         'openoffice4-spreadsheet.svg',
-        'pplication-vnd.insync.link.drive.table.svg',
         'text-spreadsheet.svg',
     ],
     'oasis-drawing.svg': [
@@ -343,6 +345,19 @@ link_files = {
         'libreoffice-oasis-text.svg',
         'libreoffice-text.svg',
         'openoffice4-oasis-text.svg',
+    ],
+    'application-x-cd-image.svg': [
+        'application-vnd.efi.img.svg',
+        'application-vnd.efi.iso.svg',
+        'application-vnd.squashfs.svg',
+        'application-x-apple-diskimage.svg',
+        'application-x-compressed-iso.svg',
+        'application-x-iso.svg',
+        'application-x-raw-disk-image-xz-compressed.svg',
+        'application-x-raw-disk-image.svg',
+        'application-x-raw-floppy-disk-image.svg',
+        'gnome-mime-application-x-nero-disk-image.svg',
+        'nero-disk-image.svg',
     ],
     'application-x-deb.svg': [
         'application-vnd.debian.binary-package.svg',
@@ -377,6 +392,7 @@ link_files = {
     'oasis-database.svg': [
         'application-sql.svg',
         'application-vnd.insync.link.drive.form.svg',
+        'application-vnd.ms-access.svg',
         'application-vnd.oasis.opendocument.database.svg',
         'application-vnd.sqlite2.svg',
         'application-vnd.sqlite3.svg',
@@ -400,6 +416,16 @@ link_files = {
         'application-pkcs7-signature.svg',
         'multipart-signed.svg',
     ],
+    'application-pkix-cert.svg': [
+        'application-pkcs10.svg',
+        'application-pkcs12.svg',
+        'application-pkcs7-mime.svg',
+        'application-x-pkcs12.svg',
+        'application-x-pkcs7-certificates.svg',
+        'application-x-pkcs7.svg',
+        'application-x-x509-ca-cert.svg',
+        'application-x-x509-user-cert.svg',
+    ],
     'application-x-photoshop.svg': [
         'application-photoshop.svg',
         'image-vnd.adobe.photoshop.svg',
@@ -421,17 +447,6 @@ link_files = {
         'application-x-java-applet.svg',
         'application-x-java.svg',
         'text-x-java-source.svg',
-    ],
-    'application-pkix-cert.svg': [
-        'application-certificate.svg',
-        'application-pkcs10.svg',
-        'application-pkcs12.svg',
-        'application-pkcs7-mime.svg',
-        'application-x-pkcs12.svg',
-        'application-x-pkcs7-certificates.svg',
-        'application-x-pkcs7.svg',
-        'application-x-x509-ca-cert.svg',
-        'application-x-x509-user-cert.svg',
     ],
     'application-xml.svg': [
         'application-atom+xml.svg',
